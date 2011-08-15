@@ -1,6 +1,14 @@
 = easydtd
 
-Description goes here.
+EasyDTD is a mechanism that parses a DTD and takes a Ruby hash and turns it
+into XML using the DTD definition.
+
+It only handles ELEMENT and comment definitions. It shouldn't be hard to
+support an ENTITY definition but the DTD's we needed to process didn't have
+them.
+
+It currently uses some Rails features that are not in standard Ruby, e.g. blank?
+
 
 == Contributing to easydtd
  
@@ -14,6 +22,5 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 Christopher Thorpe. See LICENSE.txt for
-further details.
+Copyright (c) 2011 Blueleaf, Inc. See LICENSE.txt for further details.
 

@@ -17,9 +17,9 @@ Jeweler::Tasks.new do |gem|
   gem.name = "easydtd"
   gem.homepage = "http://github.com/ChristopherThorpe/easydtd"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "cat@blueleaf.com"
+  gem.summary = %Q{Parses XML DTD's and generates compliant XML from Ruby hashes}
+  gem.description = %Q{Parses XML DTD's and generates compliant XML from Ruby hashes}
+  gem.email = "gems@christhorpe.com"
   gem.authors = ["Christopher Thorpe"]
   # dependencies defined in Gemfile
 end
